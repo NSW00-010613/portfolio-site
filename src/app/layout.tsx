@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import ClientLayout from "@/components/ClientLayout";
+import MouseStalker from "@/components/MouseStalker";
+
 
 export const metadata: Metadata = {
   title: "Kenji Okuda Portfolio",
@@ -19,6 +21,7 @@ export default function RootLayout({
         <ClientLayout>
 
 
+          <MouseStalker />
           {children}
 
         </ClientLayout>

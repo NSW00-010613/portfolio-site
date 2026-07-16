@@ -1,20 +1,21 @@
 ---
-title: Flaskで書籍管理アプリの開発
-date: 2026-06-10
-thumbnail:
+title: ポートフォリオサイトの開設
+date: 2026-07-17
+thumbnail: /images/works/portfolio/home.png
 ---
 
-書籍管理アプリをFlaskを用いて開発しました。
+ポートフォリオサイトを公開しました。
 
 ## 作成目的
 
-どのような書籍を持っているのかを簡単に確認することができると便利だと考えたため。
+自身の成果、学習内容を公開すること
 
 ## 使用技術
 
-- JS
-- Flask
-
+- Next.js
+- TypeScript
+- Tailwind CSS
 
 ## 今後の予定
 
+- ポートフォリオサイト内の検索機能

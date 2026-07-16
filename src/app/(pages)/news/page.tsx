@@ -9,7 +9,7 @@ export default function NewsPage() {
     process.cwd(),
     "src",
     "content",
-    "news"
+    "test_news"
   );
 
   const files = fs.readdirSync(newsDirectory);

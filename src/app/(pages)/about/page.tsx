@@ -17,7 +17,10 @@ export default function AboutPage() {
         </div>
 
 
-        <div className="text-2xl font-semibold mb-2">NSW株式会社</div>
+        <div className="text-2xl font-semibold mb-2 underline">
+          <a href="https://www.nsw.co.jp/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-500">NSW株式会社
+          </a>
+        </div>
 
         <section className="grid md:grid-cols-2 gap-8 mb-8">
           <div>
@@ -32,38 +35,39 @@ export default function AboutPage() {
           </div>
 
         </section>
+        <div className="bg-amber-100 	p-6">
+          <p className="leading-8 text-gray-700 ">
+            こんにちは。東京都世田谷区に生まれ、現在は大阪でシステムエンジニアとして活動しています。
+          </p>
+          <p className="leading-8 text-gray-700">
+            システムエンジニアとして活動する前は、大学で学習心理・行動分析などの分野に従事していました。
+          </p>
+          <p className="leading-8 text-gray-700">
+            父がフリーカメラマンで動物を扱っていたことや私が大学で動物を扱っていたことから動物好きにみられることが多いですが、動物が特別に好きというわけではありません。
 
-        <p className="leading-8 text-gray-700">
-          こんにちは。東京都世田谷区に生まれ、現在は大阪でシステムエンジニアとして活動しています。
-        </p>
-        <p className="leading-8 text-gray-700">
-          システムエンジニアとして活動する前は、大学で学習心理・行動分析などの分野に従事していました。
-        </p>
-        <p className="leading-8 text-gray-700">
-          父がフリーカメラマンで動物を扱っていたことや私が大学で動物を扱っていたことから動物好きにみられることが多いですが、動物が特別に好きというわけではありません。
-
-        </p>
-        <p className="leading-8 text-gray-700">
-          生き物の行動・心理に関心があり、それらが描かれているであろう小説や映画が好きです。
-        </p>
+          </p>
+          <p className="leading-8 text-gray-700">
+            生き物の行動・心理に関心があり、それらが描かれているであろう小説や映画が好きです。
+          </p>
+        </div>
       </section>
 
       <section className="mb-12">
         <h2 className="text-4xl font-bold mb-3">
           Publication | 出版物
         </h2>
-        <p className="mb-6">学生時代の成果をまとめたものです。システムエンジニアとしての仕事は<Link href="/works" className="text-blue-600">こちら</Link>から。</p>
+        <p className="mb-6">学生時代の成果をまとめたものです。システムエンジニアとしての仕事は<Link href="/works" className="text-blue-600 hover:text-amber-500">こちら</Link>から。</p>
         <h2 className="text-2xl font-semibold mb-4">
           Refereed Publications | 査読つき論文
         </h2>
         <ol className="list-decimal list-outside pl-6 space-y-4 mb-5">
           <li>
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0023969024001036" target="_blank" rel="noopener noreferrer" className="hover:underline">Degraded contingency effect on running-based flavor aversion in rats: Testing the associative cue-competition account with flavors of minimal similarity. </a>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0023969024001036" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-amber-500">Degraded contingency effect on running-based flavor aversion in rats: Testing the associative cue-competition account with flavors of minimal similarity. </a>
             <p className="text-sm text-gray-400">Nakajima, S., & Okuda, K. (2024). </p>
             <p className="text-sm text-gray-400">Learning and Motivation, 88, 102061.</p>
           </li>
           <li>
-            <a href="https://doi.org/10.2502/janip.76.1.2" target="_blank" rel="noopener noreferrer" className="hover:underline">塩化リチウム注射によるラット (Rattus norvegicus) のカオリン粘土摂取行動の時間的推移.</a>
+            <a href="https://doi.org/10.2502/janip.76.1.2" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-amber-500">塩化リチウム注射によるラット (Rattus norvegicus) のカオリン粘土摂取行動の時間的推移.</a>
             <p className="text-sm text-gray-400">奥田研志, 吉永雄大, & 中島定彦. (2026). </p>
             <p className="text-sm text-gray-400"> 動物心理学研究, 76-1.</p></li>
 

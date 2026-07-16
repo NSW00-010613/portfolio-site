@@ -16,7 +16,7 @@ export default async function NewsDetail({
     process.cwd(),
     "src",
     "content",
-    "news",
+    "test_news",
     `${id}.md`
   );
 
